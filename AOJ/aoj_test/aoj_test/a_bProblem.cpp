@@ -1,14 +1,13 @@
 #include <iostream>
 #include <iomanip>
 using namespace std;
-int main() {
-	int x, y;
-	float a, b;
-	cin >> x >> y;
-	a = x;
-	b = y;
-	cout << x / y << endl;
-	cout << x % y << endl;
-	cout << fixed << setprecision(9) << a / b << endl;
+int main(){
+	int a,b,d,r;
+	double f;
+	cin >> a >> b;
+	d = a / b;
+	r = a % b;
+	f = (double)a / b;
+	cout << d << " " << r << " " << fixed << f << endl;
 	return 0;
 }
